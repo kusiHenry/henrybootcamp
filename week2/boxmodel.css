@@ -1,0 +1,22 @@
+section {
+  width: 460px; /* Adjusted to fit 2 boxes + gap + border */
+  height: 460px;
+  margin: 50px auto;
+  border: 10px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  padding: 20px;
+  border: 5px solid darkblue;
+  background-color: lightblue;
+  box-sizing: border-box;
+}
