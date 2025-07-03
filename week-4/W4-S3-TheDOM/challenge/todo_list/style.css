@@ -1,0 +1,13 @@
+body {
+    background: #f8f9fa;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList li .actions button {
+    margin-left: 5px;
+}
