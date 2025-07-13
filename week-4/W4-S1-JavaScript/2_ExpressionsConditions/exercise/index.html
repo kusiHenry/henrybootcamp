@@ -1,0 +1,61 @@
+// 1. Variable Declaration and Assignment
+let num1 = 10;         // A number
+let num2 = "10";       // A string with a numeric value
+let isTrue = true;     // A boolean
+
+// 2. Using Comparison Operators
+
+// Comparison using '>'
+let isGreater = num1 > 5; 
+console.log("Is num1 greater than 5?", isGreater); // true
+
+// ✅ TODO: Comparison using '<='
+let isLessOrEqual = num1 <= 10;
+console.log("Is num1 less than or equal to 10?", isLessOrEqual); // true
+
+// 3. Strict vs. Value Comparison
+
+// ✅ TODO: Value comparison using '=='
+let isEqualValue = num1 == num2;  // true because '10' == 10 after type coercion
+console.log("Does num1 equal num2 (value comparison)?", isEqualValue);
+
+// ✅ TODO: Strict comparison using '==='
+let isEqualStrict = num1 === num2; // false because types differ (number !== string)
+console.log("Does num1 equal num2 (strict comparison)?", isEqualStrict);
+
+// 4. Conditional Statements
+
+if (num1 === 10) {
+  console.log("num1 is exactly equal to 10 (strict comparison).");
+} else {
+  console.log("num1 is not exactly equal to 10.");
+}
+
+// ✅ Another conditional statement to check if num1 is greater than 15
+if (num1 > 15) {
+  console.log("num1 is greater than 15.");
+} else {
+  console.log("num1 is not greater than 15."); // This will run
+}
+
+// 5. Conditional Statements with Logical Operators
+
+// ✅ Using && (AND)
+if (num1 < 15 && num2 === "10") {
+  console.log("num1 is less than 15 AND num2 is exactly equal to '10'."); // true
+}
+
+// ✅ Using || (OR)
+if (num2 === "10" || num1 === 20) {
+  console.log("num2 is '10' OR num1 is 20."); // true, because first condition is true
+}
+
+// ✅ What's the difference between the && and || operators?
+console.log("Explanation:");
+console.log("&& (AND) requires *both* conditions to be true.");
+console.log("|| (OR) requires *at least one* condition to be true.");
+
+// ✅ Final TODO - Add a conditional statement to check if num1 is less than 15 and num2 is exactly equal to '10'
+if (num1 < 15 && num2 === "10") {
+  console.log("Confirmed: num1 is less than 15 and num2 is exactly equal to '10'.");
+}
