@@ -1,0 +1,14 @@
+{
+  "name": "figlet-demo",
+  "version": "1.0.0",
+  "description": "A figlet demo excercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Kusi Henry",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.8.2"
+  }
+}
