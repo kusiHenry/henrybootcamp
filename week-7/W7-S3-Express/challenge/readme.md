@@ -91,5 +91,6 @@ For guidance on deployment, refer to this article:
 
 To complete this exercise, submit:
 
-- The GitHub repository link
-- The deployed Render.com application link
+- The GitHub repository link - https://github.com/kusiHenry/henrybootcamp/tree/5fb9a223258553656ad62a2a057b97b11809b7d9/week-7/W7-S3-Express/challenge/note-taking-app
+
+- The deployed Render.com application link - https://henrybootcamp-noteapp.onrender.com/
